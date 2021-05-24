@@ -1,0 +1,25 @@
+{
+  "presets": [["es2015",{"modules": false}],"react"],
+  // "plugins": ["import-fix"]
+  // "plugins": [["import-fix", [
+  //   {
+  //     "libraryName": "antd",
+  //     "libraryPath": "antd/lib/${name}/index.js",
+  //     "namePolicy": "dash",
+  //     "cssPath": "antd/lib/${name}/style/index.css"
+  //   }
+  // ]]]
+  
+  "plugins": [
+    ["import", 
+      { "libraryName": "antd", "style": "css" },
+      // {
+      //   "libraryName": "antd",
+      //   "libraryDirectory": "lib",
+      //   // "customName": require("path").resolve(__dirname, "./customName.js"),
+      //   "style": true
+      // }, 
+      "antd"
+    ]
+  ]
+}
