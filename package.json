@@ -1,6 +1,7 @@
 {
   "name": "vite-preact",
   "version": "0.0.0",
+  "license": "no",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
